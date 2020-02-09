@@ -36,7 +36,7 @@ app.get('/about', (req, res) => {
   res.render('about');
 })
 
-app.listen(2020, () => {
+app.listen(process.env.PORT || 2020, () => {
   console.log('Server started on port 2020.');
 });
 
