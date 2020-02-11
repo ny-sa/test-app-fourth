@@ -34,7 +34,11 @@ const entry3 = new Entry({
   text: '<-- Hit this to delete an entry.'
 })
 
-const defaultItems = [entry1, entry2, entry3];
+const entry4 = new Entry({
+  text: 'Entries and custom lists no longer reset.'
+})
+
+const defaultItems = [entry1, entry2, entry3, entry4];
 
 const listSchema = {
   name: String,
